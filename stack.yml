@@ -8,4 +8,4 @@ functions:
     handler: ./filter-tweet
     image: filter-tweet:latest
     secrets:
-    - civo-slack-incoming-webhook-url
+    - slack-incoming-webhook-url
