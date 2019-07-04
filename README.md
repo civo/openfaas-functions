@@ -14,5 +14,5 @@ faas-cli cloud seal --name civo-slack-incoming-webhook-url \
 
 ## Additional info
 
-These functions are deployed to the OpenFaaS Community Cluster operated by OpenFaaS Ltd.
+These functions are deployed to the [OpenFaaS Community Cluster](https://github.com/openfaas/community-cluster/) operated by OpenFaaS Ltd.
 
