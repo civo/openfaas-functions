@@ -11,3 +11,8 @@ Seal the secrets:
 faas-cli cloud seal --name civo-slack-incoming-webhook-url \
     --literal incoming-webhook-url=https://hooks.slack.com/services/value-here
 ```
+
+## Additional info
+
+These functions are deployed to the OpenFaaS Community Cluster operated by OpenFaaS Ltd.
+
