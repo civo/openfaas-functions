@@ -2,6 +2,7 @@ version: 1.0
 provider:
   name: openfaas
   gateway: http://127.0.0.1:8080
+
 functions:
   filter-tweet:
     lang: go
@@ -9,3 +10,7 @@ functions:
     image: filter-tweet:latest
     secrets:
     - slack-incoming-webhook-url
+    environment:
+      username: "CivoCloud"
+      read_debug: "true"
+      write_debug: "true"
