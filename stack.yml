@@ -14,5 +14,5 @@ functions:
       username: "CivoCloud"
       read_debug: "true"
       write_debug: "true"
-    annotations:
+    labels:
       com.openfaas.scale.zero: false
